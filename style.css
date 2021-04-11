@@ -1,0 +1,77 @@
+body{
+    margin: 0;
+    background-color:  rgb(24, 136, 136);
+}
+.indexh1{
+    text-align: center;
+    color:rgb(1, 15, 1);
+}
+.para{
+    font-size: 20px;
+    color: darkcyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+    background-color: rgb(9, 78, 87);
+    width: 100%;
+    overflow: auto;
+
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+li{
+float: right;
+font-weight: bold;
+}
+nav a{
+    width: 160px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkolivegreen;
+    padding: 10px 20px;
+
+}
+a:hover{
+
+    color: rgb(43, 155, 155);
+}
+#Product-section{
+    box-sizing: border-box;
+}
+#container{
+    width: 1350px;
+    margin:auto;
+    background-color: rgb(24, 136, 136);
+    position: relative;
+    display: flex;
+    overflow: auto;
+    
+}
+.items{
+    margin: 1rem;
+    /* border: 1px solid #ccc; */
+    float: left;
+    width: 500px;
+    
+}
+img{
+    
+    width: 10rem;
+    height: 10rem;
+}
+
+button:checked{
+    color: rgb(110, 136, 72);
+}
+div{
+    display: inline-block;
+    justify-content: center;
+}
+
+
